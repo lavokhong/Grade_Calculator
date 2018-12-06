@@ -9,10 +9,10 @@ class App(Tk):
     
     self.title("Grade Calculator")
     self.addLabs()
+    self.addQuiz()
     self.addExams()
     self.addProj()
     self.addOutput()
-    self.addQuiz()
     
   def addLabs(self):    
     """ add lab elements """
